@@ -1,0 +1,32 @@
+
+#login{
+ display: flex ;
+ flex-direction: column;
+ height: 100%;
+ justify-content: center;
+ align-items: center;
+}
+
+#login-content{
+    margin-bottom: 40px;
+}
+
+#login-button a{
+    margin-bottom: 40px;
+    background-color: rgb(33, 33, 231);
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+// #login-button:hover{
+//     scale: 110%;
+//     background-color: rgb(71, 71, 158);
+//     transition: 0.1s;
+// }
+
+#login-button a:active{
+    scale: 110%;
+    background-color: rgb(71, 71, 158);
+}

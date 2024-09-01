@@ -7,7 +7,7 @@ ion-menu-button {
     position: absolute;
     left: 0;
     right: 0;
-    top: 50%;
+    top: 70%;
     transform: translateY(-50%);
   }
   
@@ -25,4 +25,38 @@ ion-menu-button {
   
   #container a {
     text-decoration: none;
+  }
+
+  ion-card {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    min-height: 150px;
+    .imagen{
+      align-content: center;
+      justify-content: center;
+      margin-left: 5%;
+      img{
+        width: 90px;
+        height: 90px;
+      }
+    }
+    ion-card-title{
+      width: 100%;
+      text-align: left;
+      font-size: larger;
+    }
+    
+    .star{
+      display: flex;
+      flex-direction: column;
+      padding-right: 5%;
+      align-content: center;
+      justify-content: center;
+      ion-icon{
+        color: #FFD700;
+        width: 20px;
+        height: 20px;
+      }
+    }
   }

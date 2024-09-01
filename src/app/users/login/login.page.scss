@@ -16,7 +16,8 @@ footer{
   justify-content: center;
   #login-button {
     display: flex;
-    background-color: rgb(33, 33, 231);
+    // background-color: rgb(33, 33, 231);
+    background-color:var(--ion-color-primary);
     padding: 10px;
     border-radius: 10px;
     text-decoration: none;

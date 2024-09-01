@@ -74,7 +74,9 @@
 #select-button {
     display: flex;
     // margin-bottom: 80%;
-    background-color: rgb(33, 33, 231);
+    // color: var(--ion-color-primary);
+    background-color:var(--ion-color-primary);
+    // background-color: rgb(33, 33, 231);
     color: white;
     padding: 10px;
     border-radius: 10px;

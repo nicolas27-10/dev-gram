@@ -8,14 +8,35 @@
 </ion-header>
 
 <ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Registro cliente</ion-title>
-    </ion-toolbar>
-  </ion-header>
-
   <div id="container">
-    <strong class="capitalize">Registro cliente</strong>
+    <Header>
+      <!-- <h1>Registrate como Desarrollador</h1> -->
+      <h1 class="capitalize">¡Ya no queda nada! Completa los siguientes datos para crear tu cuenta.</h1>
+      <img src="../../assets/img/user.png" alt="">
+    </Header>
     
+    <div id="login-content">
+      <ion-list>
+        <ion-list>
+          <ion-item>
+            <ion-input label="Nombre y Apellido" placeholder="Juan Perez"></ion-input>
+          </ion-item>
+          
+          <ion-item>
+            <ion-input label="Contraseña" type="password" value="password"></ion-input>
+          </ion-item>
+          
+          <ion-item>
+            <ion-input label="Email" type="email" placeholder="email@example.com"></ion-input>
+          </ion-item>
+        </ion-list>
+      </ion-list>
+    </div>
+
+    <footer>
+      <ion-buttons id="regcli-button">
+          <a href="/inicio"> Siguiente</a>
+        </ion-buttons>
+    </footer>
   </div>
 </ion-content>

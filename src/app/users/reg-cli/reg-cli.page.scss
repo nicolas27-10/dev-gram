@@ -1,0 +1,57 @@
+#container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    justify-content: space-between;
+    max-height: 100%;
+    padding-top: 5% ;
+    padding-bottom: 10% ;
+}
+header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+
+    h1{
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    img{
+        width: 150px;
+        height: 150px;
+        margin: 20px;
+    }
+}
+
+#regcli-button {
+    display: flex;
+    // margin-bottom: 80%;
+    background-color: rgb(33, 33, 231);
+    padding: 10px;
+    border-radius: 10px;
+    text-decoration: none;
+    font-size: large;
+    margin-top:30%;
+    
+    a{
+        text-decoration: none;
+        color: white;
+
+    }
+}
+
+// #login-content ion-list {
+//     background-color: transparent; /* Hace el fondo transparente */
+//     border: none; /* Elimina cualquier borde, si es necesario */
+//     box-shadow: none; /* Elimina cualquier sombra */
+// }
+
+// /* Opcional: Estilo para ion-item si también tienen un fondo */
+// #login-content ion-item {
+//     background-color: transparent; /* Hace el fondo de cada ion-item transparente */
+//     border: none; /* Elimina cualquier borde */
+// }

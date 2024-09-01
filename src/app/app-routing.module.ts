@@ -4,7 +4,7 @@ import { PreloadAllModules, RouterModule, Routes } from '@angular/router';
 const routes: Routes = [
   {
     path: '',
-    redirectTo: 'select',
+    redirectTo: 'login',
     pathMatch: 'full'
   },
   {
@@ -31,10 +31,7 @@ const routes: Routes = [
     path: 'reg-dev',
     loadChildren: () => import('./users/reg-dev/reg-dev.module').then( m => m.RegDevPageModule)
   },
-  {
-    path: 'register',
-    loadChildren: () => import('./users/register/register.module').then( m => m.RegisterPageModule)
-  }
+  
 
 
 ];

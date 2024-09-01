@@ -30,7 +30,11 @@ const routes: Routes = [
   {
     path: 'reg-dev',
     loadChildren: () => import('./users/reg-dev/reg-dev.module').then( m => m.RegDevPageModule)
+  },  {
+    path: 'mensajes',
+    loadChildren: () => import('./mensajes/mensajes.module').then( m => m.MensajesPageModule)
   },
+
   
 
 

@@ -1,14 +1,23 @@
+
+
 ion-menu-button {
     color: var(--ion-color-primary);
+}
+  ion-content {
+    --background: rgb(247, 235, 222);
   }
-  
   #container {
     text-align: center;
     position: absolute;
     left: 0;
     right: 0;
-    top: 70%;
-    transform: translateY(-50%);
+    // top: 88%;
+    // transform: translateY(-50%);
+    padding-top: 20px;
+    // background-color: bisque;
+    max-width: 800px;
+    justify-content: center;
+    align-items: center;
   }
   
   #container strong {
@@ -32,6 +41,16 @@ ion-menu-button {
     flex-direction: row;
     justify-content: space-between;
     min-height: 150px;
+
+    .especialidad{
+      border: 3px solid;
+      border-color: var(--ion-color-primary);
+      padding: 5px;
+      border-radius: 16px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      font-weight: 500;
+    }
+
     .imagen{
       align-content: center;
       justify-content: center;
@@ -39,12 +58,14 @@ ion-menu-button {
       img{
         width: 90px;
         height: 90px;
+        border-radius: 100%;
       }
     }
     ion-card-title{
-      width: 100%;
       text-align: left;
-      font-size: larger;
+      font-size: 160%;
+      text-overflow: ellipsis;
+      margin-top: 10px;
     }
     
     .star{
@@ -53,10 +74,16 @@ ion-menu-button {
       padding-right: 5%;
       align-content: center;
       justify-content: center;
+      color: #dab900;
+
       ion-icon{
-        color: #FFD700;
-        width: 20px;
-        height: 20px;
+        color: #dab900;
+        width: 30px;
+        height: 30px;
+      }
+      h1{
+        font-size: 150%;
+        margin-top: 0;
       }
     }
   }

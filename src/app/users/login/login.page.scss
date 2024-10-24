@@ -8,6 +8,7 @@
   max-height: 100%;
   padding-top: 20% ;
   padding-bottom: 20% ;
+  background: linear-gradient(rgb(92, 92, 92) 50%, rgb(160, 159, 159),rgb(177, 176, 176) );
 }
 footer{
   display: flex;
@@ -31,4 +32,9 @@ footer{
   
     }
   }
+}
+
+#titulo {
+  display: flex;
+  text-align: center;
 }

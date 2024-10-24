@@ -18,6 +18,7 @@ ion-menu-button {
     max-width: 800px;
     justify-content: center;
     align-items: center;
+    background: linear-gradient(rgb(92, 92, 92) 50%, rgb(160, 159, 159),rgb(177, 176, 176) );
   }
   
   #container strong {
@@ -87,3 +88,8 @@ ion-menu-button {
       }
     }
   }
+
+#titulo {
+    display: flex;
+    text-align: center;
+}

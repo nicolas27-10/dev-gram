@@ -8,6 +8,7 @@
     max-height: 100%;
     padding-top: 5% ;
     padding-bottom: 10% ;
+    background: linear-gradient(rgb(92, 92, 92) 50%, rgb(160, 159, 159),rgb(177, 176, 176) );
 }
 header{
     display: flex;
@@ -43,6 +44,11 @@ header{
         color: white;
 
     }
+}
+
+#titulo {
+    display: flex;
+    text-align: center;
 }
 
 // #login-content ion-list {

@@ -23,6 +23,15 @@ header{
     }
 }
 
+header h1{
+    text-shadow: -1px -1px 0 white, -1px 1px 0 white, 1px 1px 0 white, 1px -1px 0 white;
+    font-weight: bold;
+}
+
+header .capitalize{
+    color: white;
+}
+
 select{
     // height: 50px;s
     border-radius: 5px;
@@ -35,7 +44,7 @@ select{
 #regdev-button {
     display: flex;
     // margin-bottom: 80%;
-    background-color: rgb(33, 33, 231);
+    background:linear-gradient(blue 60%, rgb(133, 133, 255));
     padding: 10px;
     border-radius: 10px;
     text-decoration: none;
@@ -52,6 +61,11 @@ select{
     display: flex;
     text-align: center;
 }
+
+#login-content ion-list{
+    border-radius: 3;
+}
+
 // #login-content ion-list {
 //     background-color: transparent; /* Hace el fondo transparente */
 //     border: none; /* Elimina cualquier borde, si es necesario */
